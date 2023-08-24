@@ -52,5 +52,5 @@ elif in_mod == "visual":
   set_mod = "Reproducir video"
 elif in_mod == "háptico":
   set_mod = "Activar vibración"
-st.write("la acción es: " set_mode)
+st.write("la acción es: ", set_mode)
     
