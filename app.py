@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.title("LA aplicacion de Isabel")
+st.title("La aplicacion de Isabel")
