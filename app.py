@@ -54,3 +54,9 @@ elif in_mod == "háptico":
   set_mod = "Activar vibración"
 st.write("la acción es: ", set_mod)
     
+with st.sidebar:
+  st.subheader("configura la modalidad")
+  mod_radio = st.radio (
+    "Escoge la modalidad a usar",
+    ("visual", "auditiva", "háptica")
+  )
