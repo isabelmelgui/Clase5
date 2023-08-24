@@ -11,7 +11,7 @@ st.image(image, caption= 'Interfaces multimodales')
 
 
 texto = st.text_input('Escribe algo', 'este es mi texto')
-st.write('El texto escrito es', texto)
+st.write('El texto escrito es:', texto)
 
 st.subheader("Ahora usemos 2 columnas")
 
